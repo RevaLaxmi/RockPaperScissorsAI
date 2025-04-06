@@ -2,7 +2,7 @@
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model('gesture_model4.keras')
+model = load_model('gesture_model2.keras')
 
 class_names = ['rock', 'paper', 'scissors', 'nothing']
 
